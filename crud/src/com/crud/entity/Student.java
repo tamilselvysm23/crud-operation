@@ -1,17 +1,17 @@
 package com.crud.entity;
 
 public class Student {
-	//Define fields
+	// Define fields
 	private int id;
-	
+
 	private String name;
-	
+
 	private String email;
-	
+
 	private String dob;
-	
-	//getter and setter
-	
+
+	// getter and setter
+
 	public int getId() {
 		return id;
 	}
@@ -49,6 +49,4 @@ public class Student {
 		return "Student [id=" + id + ", name=" + name + ", email=" + email + ", dob=" + dob + "]";
 	}
 
-	
-	
 }
