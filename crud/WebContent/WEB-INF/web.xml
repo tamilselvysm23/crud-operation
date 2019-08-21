@@ -11,12 +11,12 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>ConnectionServlet</display-name>
-    <servlet-name>ConnectionServlet</servlet-name>
-    <servlet-class>com.crud.ConnectionServlet</servlet-class>
+    <display-name>StudentController</display-name>
+    <servlet-name>StudentController</servlet-name>
+    <servlet-class>com.crud.controller.StudentController</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ConnectionServlet</servlet-name>
-    <url-pattern>/ConnectionServlet</url-pattern>
+    <servlet-name>StudentController</servlet-name>
+    <url-pattern>/StudentController</url-pattern>
   </servlet-mapping>
 </web-app>
