@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ConnectionServlet</display-name>
+    <servlet-name>ConnectionServlet</servlet-name>
+    <servlet-class>com.crud.ConnectionServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConnectionServlet</servlet-name>
+    <url-pattern>/ConnectionServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
